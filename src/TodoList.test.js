@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
+import '@testing-library/jest-dom';
 import renderer from 'react-test-renderer';
 import TodoList from './TodoList'; // Adjust the import path according to your file structure
 
